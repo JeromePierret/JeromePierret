@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+background:linear-gradient(rgb(0, 142, 224), rgb(137, 190, 221), rgb(233, 244, 247));
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+overflow-y: scroll;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: #259bdf;
+       
+}
+ul{
+    
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+li{
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    list-style: none;
+}
+li:hover{
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    
+    backdrop-filter: blur(10px);
+    
+    
+    
+}
+#accspace{
+    margin-left: 700px;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+img{
+    
+    margin-right: 200px;
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+hr{
+    margin-top: 5px;
+    box-shadow: 1px 1px 12px rgba(218, 216, 216, 0.781);
+}
+ion-icon{
+    color: white;
+    width:20px;
+    height:20px;
+}
+.principal{
+   
+    position: relative;
+  text-align: center;
+  margin-left: 200px;
+  width: 1100px;
+  height: 500px;
+  
+  background-color: rgba(0, 142, 224, 0.384);
+  background:linear-gradient(rgb(0, 142, 224), rgb(137, 190, 221), rgb(233, 244, 247));
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+  border-radius: 0%;
+  border:black;
+  color:white;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#presentation{
+    display:inline;
+}
+#prlogo{
+    margin-left: 50px;
+    width: 50px;
+    height:50px;
+}
+
+.show{
+    float: left;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    width: 75%;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.show2{
+    float: left;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    width: 55%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.ventilationmode{
+    float: right;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    margin-right: 100px;
+    width: 20%;
+    height: 330px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.modetxt{
+    float: inline-end;
+}
+.modevtxt{
+    padding-bottom: 35px;
+}
+button{
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    background: rgb(143, 141, 141);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    
+}
+#contact{
+    background: rgba(24, 58, 151, 0.815);
+}
+.nouveaute{
+    color: white;
+    float:right;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    width: 15%;
+    height: 200px;
+    margin-right: 25px;
+    overflow-y: scroll;
+    
+}
+#possibilite{
+    margin-top: 50px;
+    
+}
+
+.confirmer{
+    float: right;
+    background: rgba(110, 173, 99, 0.795);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding: 5px;
+    border: none;
+}
+footer{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    
+    margin-top: 13%;
+    
+    padding-bottom: 0;
+    width: 100%;
+    height: 100px;
+}

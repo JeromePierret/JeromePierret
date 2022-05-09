@@ -1,0 +1,184 @@
+body{
+  background:linear-gradient(rgb(0, 142, 224), rgb(137, 190, 221), rgb(233, 244, 247));
+    background-color: rgb(233, 244, 247);
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+fieldset{
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter:blur(5px) ;
+
+  width: 30%;
+  max-width: 40%;
+  min-width: 5%;
+  max-height: 700px;
+  min-height: 100px;
+  
+
+  background-color: rgba(0, 142, 224, 0.384);
+  background:linear-gradient(rgb(0, 142, 224), rgb(137, 190, 221), rgb(233, 244, 247));
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+  border-radius: 0%;
+  border:black;
+  color:white;
+}
+
+#log{
+  color:rgb(255, 251, 251);
+  position: relative;
+  bottom: 50%;
+  font-size: 25px;
+}
+#champlogin{
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter:blur(5px) ;
+  background-color:rgb(255, 255, 255) ;
+  background: rgba(255,255,255,.3);
+  margin-top: 70px;
+  width: 60%;
+  height: 60%;
+  padding:15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 70%;
+  border-style: none;
+  border-radius: 10px;
+  color:rgba(0, 0, 0, 0.493);
+}
+#champlogin:hover{
+  background-color: rgba(255, 255, 255, 0.700);
+}
+#champpassword{
+align-items: left;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter:blur(5px) ;
+
+  background-color:rgb(255, 255, 255) ;
+  background: rgba(255,255,255,.3);
+  
+  
+  padding:15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 70%;
+  border-style: none;
+  border-radius: 10px;
+  color:rgba(0, 0, 0, 0.493);
+}
+#champpassword:hover{
+  background-color: rgba(255, 255, 255, 0.700);
+}
+.grpchampco{
+  margin-bottom: 50%;
+}
+#champco{
+  
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter:blur(5px) ;
+  float: center;
+  background-color: rgba(255,255,255,.3);
+  color:rgba(0, 142, 224, 0.63);
+  border-radius: 10px;
+  margin: 2px;
+  border-style: none;
+  
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#champco1{
+  
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter:blur(5px) ;
+  float: center;
+  background-color: rgba(255,255,255,.3);
+  color:rgba(0, 142, 224, 0.63);
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-right: 20px;
+  border-style: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#champco:hover{
+  background-color: rgba(255, 255, 255, 0.700);
+}
+#champco1:hover{
+  background-color: rgba(255, 255, 255, 0.700);
+}
+table{
+margin: auto;
+}
+
+.imgEW{
+    max-width: 20%;
+    max-height: 20%;
+    min-width: 5%;
+    min-height: 5%;
+}
+#txtinscrire{
+    position: relative;
+    text-align: center;
+    color: rgba(82, 74, 74, 0.658);
+}
+#txtinscrire:hover{
+  text-decoration: underline;
+}
+#txtmdp{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10%;
+    color: rgba(82, 74, 74, 0.658);
+}
+#txtmdp:hover{
+  text-decoration: underline;
+}
+#inscription{
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 2%;
+  
+}
+#retour{
+  background-color: rgba(255,255,255,.3);
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+#retour:hover{
+  background-color: rgba(255, 255, 255, 0.700);
+}
+a{
+  text-decoration: none;
+}
+.succes{
+  background: #7cd480;
+  color:whitesmoke;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.erreur{
+  background: #d47c7c;
+  color:whitesmoke;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}

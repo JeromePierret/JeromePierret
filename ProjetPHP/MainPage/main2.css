@@ -1,0 +1,13 @@
+header{
+    background:#0c0c5e;
+    color: whitesmoke;
+    height:100px;
+    margin:0;
+    padding:0;
+    position: relative;
+    font-size: 20px
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}

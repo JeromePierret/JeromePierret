@@ -1,0 +1,33 @@
+table{
+    
+    padding: 5%;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.781);
+    border-radius: 0%;
+    width: 20%;
+    height: 20%;
+    border:black solid;
+    color:rgba(0, 0, 0, 0.493);
+    position: absolute;
+    margin-left: 40%;
+    overflow: scroll;
+    
+    
+}
+
+html{
+    background:linear-gradient(rgb(0, 142, 224), rgb(137, 190, 221), rgb(233, 244, 247));
+    background-color: rgb(233, 244, 247);
+    background-repeat: no-repeat;
+    color:rgb(233, 244, 247) ;
+    text-align: center;
+    font-size: medium;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    
+    font-size: xx-large;
+}
